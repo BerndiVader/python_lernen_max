@@ -142,8 +142,8 @@ def intro():
     intro_turtle.goto(width / 2, intro_turtle.ycor())
 
     def start_game():
-        nonlocal running
-        running = False
+            nonlocal running
+            running = False
 
     while running:
         turtle.onkeyrelease(start_game, "space")
